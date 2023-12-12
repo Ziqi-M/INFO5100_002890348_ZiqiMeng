@@ -155,7 +155,7 @@ public class AppController {
             Alert alert = new Alert(Alert.AlertType.ERROR);
             alert.setTitle("Error");
             alert.setHeaderText(null);
-            alert.setContentText("Please select at least one image format checkbox.");
+            alert.setContentText("Please select at least one image format.");
             alert.showAndWait();
             return;
         }
