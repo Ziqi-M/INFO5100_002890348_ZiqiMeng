@@ -52,7 +52,7 @@ public class AppController {
 
         // add filters to only allow image files with image extensions
         fileChooser.getExtensionFilters().addAll(
-                new FileChooser.ExtensionFilter("Images Files", "*.png", "*.jpg", "*.gif"));
+                new FileChooser.ExtensionFilter("Images Files", "*.png", "*.jpg", "*.bmp","*.gif"));
 
         // show the file chooser dialog and wait for the user to select one or more files
         return fileChooser.showOpenMultipleDialog(null);
